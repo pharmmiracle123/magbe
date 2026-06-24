@@ -1,0 +1,1785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>MAGBE INTEGRATED TECH LTD | Premium Solar Engineering Company</title>
+
+<!-- SEO -->
+<meta name="description"
+content="MAGBE INTEGRATED TECH LTD is a premium solar installation engineering company delivering renewable energy, inverter systems, CCTV installation and electrical engineering solutions across Nigeria."/>
+
+<meta name="keywords"
+content="Solar Installation Nigeria, Renewable Energy, Electrical Engineering, Inverter Systems, CCTV Installation"/>
+
+<meta name="author"
+content="MAGBE INTEGRATED TECH LTD"/>
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- FONT -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+  font-family:'Inter',sans-serif;
+}
+
+body{
+  background:#020617;
+  color:white;
+  overflow-x:hidden;
+}
+
+.hero-bg{
+
+  background:
+  linear-gradient(to right,rgba(2,6,23,.95),rgba(15,23,42,.85)),
+  url('https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1600&auto=format&fit=crop');
+
+  background-size:cover;
+  background-position:center;
+}
+
+.glass{
+
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.08);
+  backdrop-filter:blur(12px);
+
+}
+
+.solar-gradient{
+  background:linear-gradient(135deg,#facc15,#f97316);
+}
+
+.text-gradient{
+
+  background:linear-gradient(135deg,#facc15,#fb923c);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+
+}
+
+.dark-gradient{
+  background:linear-gradient(135deg,#020617,#0f172a);
+}
+
+.animate-float{
+  animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+
+  0%{
+    transform:translateY(0px);
+  }
+
+  50%{
+    transform:translateY(-15px);
+  }
+
+  100%{
+    transform:translateY(0px);
+  }
+
+}
+
+.navbar-scrolled{
+
+  background:rgba(2,6,23,.95);
+  backdrop-filter:blur(18px);
+  box-shadow:0 10px 40px rgba(0,0,0,.4);
+
+}
+
+.service-card,
+.team-card,
+.project-card,
+.testimonial-card{
+
+  transition:.5s ease;
+
+}
+
+.service-card:hover,
+.team-card:hover,
+.project-card:hover,
+.testimonial-card:hover{
+
+  transform:translateY(-12px);
+
+}
+
+.glow{
+
+  box-shadow:
+  0 0 20px rgba(250,204,21,.3),
+  0 0 50px rgba(249,115,22,.15);
+
+}
+
+.menu-open .line1{
+  transform:rotate(45deg) translateY(10px);
+}
+
+.menu-open .line2{
+  opacity:0;
+}
+
+.menu-open .line3{
+  transform:rotate(-45deg) translateY(-10px);
+}
+
+.scroll-top{
+  position:fixed;
+  right:25px;
+  bottom:25px;
+  z-index:999;
+  display:none;
+}
+
+.hero-blur{
+
+  position:absolute;
+  width:400px;
+  height:400px;
+  border-radius:50%;
+  background:#facc15;
+  filter:blur(120px);
+  opacity:.15;
+
+}
+
+.stats-box{
+
+  background:linear-gradient(
+    135deg,
+    rgba(250,204,21,.1),
+    rgba(249,115,22,.05)
+  );
+
+}
+
+.pricing-card:hover{
+
+  transform:scale(1.03);
+
+}
+
+.video-overlay{
+
+  background:
+  linear-gradient(
+    to top,
+    rgba(0,0,0,.7),
+    transparent
+  );
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header
+id="navbar"
+class="fixed top-0 left-0 w-full z-50 transition-all duration-500">
+
+<div class="absolute inset-0 bg-slate-950/80 backdrop-blur-xl border-b border-white/10"></div>
+
+<div class="relative max-w-7xl mx-auto px-6 py-4">
+
+<div class="flex items-center justify-between">
+
+<!-- LOGO -->
+
+<a href="#home" class="flex items-center gap-4">
+
+<div class="relative">
+
+<div class="absolute inset-0 bg-yellow-400 blur-2xl opacity-40 rounded-full"></div>
+
+<img
+src="https://cdn-icons-png.flaticon.com/512/3105/3105807.png"
+class="relative w-16 h-16 rounded-full border-2 border-yellow-400 p-2 bg-slate-900">
+
+</div>
+
+<div>
+
+<h1 class="text-2xl font-black">
+MAGBE INTEGRATED
+</h1>
+
+<p class="text-yellow-400 text-sm tracking-[4px] uppercase">
+TECH LIMITED
+</p>
+
+</div>
+
+</a>
+
+<!-- NAV -->
+
+<nav class="hidden lg:flex items-center gap-10 font-medium text-sm">
+
+<a href="#home" class="hover:text-yellow-400 transition">
+Home
+</a>
+
+<a href="#about" class="hover:text-yellow-400 transition">
+About
+</a>
+
+<a href="#services" class="hover:text-yellow-400 transition">
+Services
+</a>
+
+<a href="#projects" class="hover:text-yellow-400 transition">
+Projects
+</a>
+
+<a href="#pricing" class="hover:text-yellow-400 transition">
+Pricing
+</a>
+
+<a href="#team" class="hover:text-yellow-400 transition">
+Team
+</a>
+
+<a href="#contact" class="hover:text-yellow-400 transition">
+Contact
+</a>
+
+<a href="#videos" class="hover:text-yellow-400 transition">
+  Videos
+</a>
+
+</nav>
+
+<!-- BUTTONS -->
+
+<div class="hidden lg:flex items-center gap-4">
+
+<a
+href="tel:+2349030975784"
+class="px-6 py-3 border border-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition">
+
++2349030975784
+
+</a>
+
+<a
+href="#contact"
+class="px-7 py-3 solar-gradient rounded-full text-black font-black hover:scale-105 transition glow">
+
+Get Quote
+
+</a>
+
+</div>
+
+<!-- MOBILE -->
+
+<button
+id="menuBtn"
+class="lg:hidden w-11 h-11 rounded-full border border-white/10 bg-white/5 flex items-center justify-center">
+
+<div class="space-y-1">
+
+<span class="line1 block w-5 h-[2px] bg-white rounded-full transition-all"></span>
+<span class="line2 block w-5 h-[2px] bg-white rounded-full transition-all"></span>
+<span class="line3 block w-5 h-[2px] bg-white rounded-full transition-all"></span>
+</div>
+
+</button>
+
+</div>
+
+</div>
+
+<!-- MOBILE MENU -->
+
+<div
+id="mobileMenu"
+class="hidden lg:hidden bg-slate-950/95 backdrop-blur-2xl border-b border-white/10">
+
+<div class="px-6 py-8 flex flex-col gap-6 text-lg">
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#pricing">Pricing</a>
+<a href="#team">Team</a>
+<a href="#contact">Contact</a>
+
+<a
+href="#contact"
+class="solar-gradient text-black text-center py-4 rounded-full font-black">
+
+Request Installation
+
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section
+id="home"
+class="hero-bg min-h-screen flex items-center relative overflow-hidden">
+
+<div class="hero-blur top-0 left-0 absolute"></div>
+
+<div class="hero-blur bottom-0 right-0 absolute"></div>
+
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center relative z-10">
+
+<!-- LEFT -->
+
+<div data-aos="fade-right">
+
+<p class="uppercase tracking-[5px] text-yellow-400 font-semibold mb-5">
+
+Renewable Energy Experts
+
+</p>
+
+<h1 class="text-5xl md:text-7xl font-black leading-tight mb-6">
+
+Powering Africa With
+
+<span class="text-gradient">
+Clean Solar Energy
+</span>
+
+</h1>
+
+<p class="text-lg text-gray-300 leading-relaxed mb-8 max-w-2xl">
+
+We build premium solar energy systems,
+industrial electrical projects, inverter systems,
+smart surveillance and renewable engineering
+solutions for homes and businesses.
+
+</p>
+
+<div class="flex flex-wrap gap-4 mb-12">
+
+<a
+href="#contact"
+class="px-8 py-4 solar-gradient rounded-full text-black font-black hover:scale-105 transition glow">
+
+Request Installation
+
+</a>
+
+<a
+href="#videos"
+class="px-8 py-4 border border-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition">
+
+View Projects
+
+</a>
+
+</div>
+
+<!-- STATS -->
+
+<div class="grid grid-cols-3 gap-6">
+
+<div class="stats-box p-6 rounded-3xl glass">
+
+<h2
+class="counter text-4xl font-black text-yellow-400"
+data-target="500">
+
+0
+
+</h2>
+
+<p class="text-gray-400 mt-2 text-sm">
+Installations
+</p>
+
+</div>
+
+<div class="stats-box p-6 rounded-3xl glass">
+
+<h2
+class="counter text-4xl font-black text-yellow-400"
+data-target="15">
+
+0
+
+</h2>
+
+<p class="text-gray-400 mt-2 text-sm">
+Years Experience
+</p>
+
+</div>
+
+<div class="stats-box p-6 rounded-3xl glass">
+
+<h2
+class="counter text-4xl font-black text-yellow-400"
+data-target="98">
+
+0
+
+</h2>
+
+<p class="text-gray-400 mt-2 text-sm">
+Client Satisfaction
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div
+class="relative animate-float"
+data-aos="fade-left">
+
+<img
+src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?q=80&w=1400&auto=format&fit=crop"
+class="rounded-[35px] shadow-2xl border border-white/10 glow">
+
+<div
+class="absolute -bottom-10 -left-8 glass p-6 rounded-3xl w-72">
+
+<p class="text-yellow-400 font-bold mb-2">
+24/7 Energy Support
+</p>
+
+<h3 class="text-2xl font-black mb-2">
+Reliable Clean Energy
+</h3>
+
+<p class="text-sm text-gray-300">
+
+Durable energy systems for homes,
+schools, industries and businesses.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- ABOUT SECTION -->
+<!-- ========================= -->
+
+<section
+id="about"
+class="py-28 bg-slate-950">
+
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+
+<!-- IMAGE -->
+
+<div data-aos="zoom-in">
+
+<img
+src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=1400&auto=format&fit=crop"
+class="rounded-[35px] shadow-2xl border border-white/10">
+
+</div>
+
+<!-- CONTENT -->
+
+<div data-aos="fade-left">
+
+<p class="text-yellow-400 uppercase tracking-[4px] font-semibold mb-4">
+
+About Us
+
+</p>
+
+<h2 class="text-5xl font-black mb-8 leading-tight">
+
+Engineering Excellence For A Sustainable Future
+
+</h2>
+
+<p class="text-gray-300 leading-loose mb-6">
+
+MAGBE INTEGRATED TECH LTD delivers advanced renewable energy solutions using modern engineering standards and premium technology. 
+
+</p>
+
+<p class="text-gray-300 leading-loose mb-10">
+
+Our engineers specialize in residential, commercial and industrial solar installations with long-lasting performance and reliable support.
+
+</p>
+
+<!-- VISION -->
+
+<div class="glass p-8 rounded-[35px] mb-8 border border-yellow-400/20">
+
+<h3 class="text-3xl font-black text-yellow-400 mb-6">
+
+Our Vision
+
+</h3>
+
+<div class="space-y-4 text-gray-300 leading-relaxed">
+
+<p>
+1. To become a leading and trusted renewable energy company in Nigeria and beyond.
+</p>
+
+<p>
+2. To deliver sustainable, affordable, and innovative solar energy solutions.
+</p>
+
+<p>
+3. To empower homes, businesses, and communities with reliable electricity.
+</p>
+
+<p>
+4. To promote clean energy adoption for a greener and brighter future.
+</p>
+
+<p>
+5. To maintain excellence, integrity, and customer satisfaction in every project.
+</p>
+
+</div>
+
+</div>
+
+<!-- MISSION -->
+
+<div class="glass p-8 rounded-[35px] border border-orange-400/20">
+
+<h3 class="text-3xl font-black text-orange-400 mb-6">
+
+Our Mission
+
+</h3>
+
+<div class="space-y-4 text-gray-300 leading-relaxed">
+
+<p>
+1. To provide high-quality solar, electrical, and renewable energy solutions.
+</p>
+
+<p>
+2. To deliver professional services with integrity, innovation, and excellence.
+</p>
+
+<p>
+3. To help clients reduce energy costs through efficient clean energy systems.
+</p>
+
+<p>
+4. To utilize advanced technology for dependable and long-lasting power solutions.
+</p>
+
+<p>
+5. To ensure exceptional customer service and lasting client relationships for MAGBE INTEGRATED TECH LTD.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- TIKTOK VIDEO SECTION -->
+<!-- ========================= -->
+
+<section
+id="videos"
+class="py-28 dark-gradient">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<!-- TITLE -->
+
+<div class="text-center mb-20" data-aos="fade-up">
+
+<p class="text-yellow-400 uppercase tracking-[4px] font-semibold mb-4">
+
+Our Video Projects
+
+</p>
+
+<h2 class="text-5xl font-black mb-6">
+
+Watch Our Latest Installations
+
+</h2>
+
+<p class="text-gray-300 max-w-3xl mx-auto">
+
+Explore some of our latest renewable energy, solar installation and engineering projects in action.
+
+</p>
+
+</div>
+
+<!-- TIKTOK EMBED SCRIPT -->
+<script async src="https://www.tiktok.com/embed.js"></script>
+
+<!-- VIDEOS SECTION -->
+
+<section id="videos" class="py-28 bg-slate-950">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<!-- HEADING -->
+
+<div class="text-center mb-20" data-aos="fade-up">
+
+<p class="text-yellow-400 uppercase tracking-[4px] font-semibold mb-4">
+Our Video Projects
+</p>
+
+<h2 class="text-5xl font-black mb-6">
+Watch Our Engineering Works
+</h2>
+
+<p class="text-gray-300 max-w-3xl mx-auto">
+Explore our solar installations, inverter systems, electrical projects and renewable energy solutions.
+</p>
+
+</div>
+
+<!-- VIDEO GRID -->
+
+<div class="grid md:grid-cols-2 gap-10">
+
+<!-- VIDEO 1 -->
+
+<div class="glass rounded-[35px] overflow-hidden p-4 hover:scale-[1.02] transition duration-500">
+
+<blockquote
+class="tiktok-embed"
+cite="https://www.tiktok.com/@magbeintegratedtech/video/7636359093128645908"
+data-video-id="7636359093128645908"
+style="max-width:100%; min-width:100%;">
+
+<section></section>
+
+</blockquote>
+
+</div>
+
+<!-- VIDEO 2 -->
+
+<div class="glass rounded-[35px] overflow-hidden p-4 hover:scale-[1.02] transition duration-500">
+
+<blockquote
+class="tiktok-embed"
+cite="https://www.tiktok.com/@magbeintegratedtech/video/7599322732123147540"
+data-video-id="7599322732123147540"
+style="max-width:100%; min-width:100%;">
+
+<section></section>
+
+</blockquote>
+
+</div>
+
+<!-- VIDEO 3 -->
+
+<div class="glass rounded-[35px] overflow-hidden p-4 hover:scale-[1.02] transition duration-500">
+
+<blockquote
+class="tiktok-embed"
+cite="https://www.tiktok.com/@magbeintegratedtech/video/7593964247835577620"
+data-video-id="7593964247835577620"
+style="max-width:100%; min-width:100%;">
+
+<section></section>
+
+</blockquote>
+
+</div>
+
+<!-- PHOTO POST -->
+
+<div class="glass rounded-[35px] overflow-hidden p-4 hover:scale-[1.02] transition duration-500">
+
+<blockquote
+class="tiktok-embed"
+cite="https://www.tiktok.com/@magbeintegratedtech/photo/7576771324501036308"
+data-video-id="7576771324501036308"
+style="max-width:100%; min-width:100%;">
+
+<section></section>
+
+</blockquote>
+
+</div>
+
+</div>
+
+<!-- TikTok Script -->
+<script async src="https://www.tiktok.com/embed.js"></script>
+<!-- ========================= -->
+<!-- SOCIAL MEDIA SECTION -->
+<!-- ========================= -->
+
+<section
+class="py-20 bg-slate-950 border-t border-white/10">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-14">
+
+<p class="text-yellow-400 uppercase tracking-[4px] font-semibold mb-4">
+
+Connect With Us
+
+</p>
+
+<h2 class="text-5xl font-black">
+
+Follow MAGBE INTEGRATED TECH LTD Online
+
+</h2>
+
+</div>
+
+<div class="flex flex-wrap justify-center gap-6">
+
+<!-- TIKTOK -->
+
+<a
+href="https://vt.tiktok.com/ZSx99bR7x/"
+target="_blank"
+class="px-8 py-4 bg-black border border-white/10 rounded-full hover:bg-white hover:text-black transition text-lg font-bold">
+
+🎵 TikTok
+
+</a>
+
+<!-- FACEBOOK -->
+
+<a
+href="#"
+target="_blank"
+class="px-8 py-4 bg-blue-600 rounded-full hover:scale-105 transition text-lg font-bold">
+
+📘 Facebook
+
+</a>
+
+<!-- INSTAGRAM -->
+
+<a
+href="#"
+target="_blank"
+class="px-8 py-4 bg-pink-600 rounded-full hover:scale-105 transition text-lg font-bold">
+
+📸 Instagram
+
+</a>
+
+<!-- YOUTUBE -->
+
+<a
+href="#"
+target="_blank"
+class="px-8 py-4 bg-red-600 rounded-full hover:scale-105 transition text-lg font-bold">
+
+▶️ YouTube
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- TIKTOK SCRIPT -->
+<!-- ========================= -->
+
+<script async src="https://www.tiktok.com/embed.js"></script>
+<!-- SERVICES -->
+
+<section
+id="services"
+class="py-28 dark-gradient">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-20" data-aos="fade-up">
+
+<p class="text-yellow-400 uppercase tracking-[4px] font-semibold mb-4">
+Our Services
+</p>
+
+<h2 class="text-5xl font-black mb-6">
+Smart Engineering Solutions
+</h2>
+
+<p class="text-gray-300 max-w-3xl mx-auto">
+
+Professional renewable energy and electrical engineering services.
+
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+<!-- CARD -->
+
+<div
+class="service-card glass p-8 rounded-[35px]"
+data-aos="fade-up">
+
+<div class="text-6xl mb-6">☀️</div>
+
+<h3 class="text-2xl font-bold mb-4">
+Solar Installation
+</h3>
+
+<p class="text-gray-300 leading-relaxed">
+
+Residential and industrial solar systems
+with premium panels and lithium batteries.
+
+</p>
+
+</div>
+
+<div
+class="service-card glass p-8 rounded-[35px]"
+data-aos="fade-up"
+data-aos-delay="100">
+
+<div class="text-6xl mb-6">🔋</div>
+
+<h3 class="text-2xl font-bold mb-4">
+Inverter Systems
+</h3>
+
+<p class="text-gray-300 leading-relaxed">
+
+Reliable backup power systems for uninterrupted electricity.
+
+</p>
+
+</div>
+
+<div
+class="service-card glass p-8 rounded-[35px]"
+data-aos="fade-up"
+data-aos-delay="200">
+
+<div class="text-6xl mb-6">📹</div>
+
+<h3 class="text-2xl font-bold mb-4">
+CCTV Installation
+</h3>
+
+<p class="text-gray-300 leading-relaxed">
+
+Smart surveillance systems with remote monitoring technology.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRICING -->
+
+<section
+id="pricing"
+class="py-28 bg-slate-950">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-20">
+
+<p class="text-yellow-400 uppercase tracking-[4px] font-semibold mb-4">
+Pricing Packages
+</p>
+
+<h2 class="text-5xl font-black mb-6">
+Affordable Energy Plans
+</h2>
+
+</div>
+
+<div class="grid lg:grid-cols-3 gap-8">
+
+<!-- CARD -->
+
+<div class="pricing-card glass p-10 rounded-[35px]">
+
+<h3 class="text-3xl font-black mb-4">
+Starter
+</h3>
+
+<h2 class="text-5xl font-black text-yellow-400 mb-6">
+
+₦250K
+
+</h2>
+
+<ul class="space-y-4 text-gray-300 mb-10">
+
+<li>✔ Solar Panels</li>
+<li>✔ Inverter System</li>
+<li>✔ Battery Backup</li>
+<li>✔ Installation</li>
+
+</ul>
+
+<button class="w-full py-4 solar-gradient rounded-full text-black font-black">
+
+Choose Plan
+
+</button>
+
+</div>
+
+<!-- CARD -->
+
+<div class="pricing-card glass p-10 rounded-[35px] border border-yellow-400 glow">
+
+<div class="mb-4 inline-block px-4 py-2 bg-yellow-400 text-black rounded-full text-sm font-bold">
+
+Most Popular
+
+</div>
+
+<h3 class="text-3xl font-black mb-4">
+Business
+</h3>
+
+<h2 class="text-5xl font-black text-yellow-400 mb-6">
+
+₦850K
+
+</h2>
+
+<ul class="space-y-4 text-gray-300 mb-10">
+
+<li>✔ Premium Solar Panels</li>
+<li>✔ Smart Inverter</li>
+<li>✔ CCTV Integration</li>
+<li>✔ Maintenance Support</li>
+
+</ul>
+
+<button class="w-full py-4 solar-gradient rounded-full text-black font-black">
+
+Choose Plan
+
+</button>
+
+</div>
+
+<!-- CARD -->
+
+<div class="pricing-card glass p-10 rounded-[35px]">
+
+<h3 class="text-3xl font-black mb-4">
+Industrial
+</h3>
+
+<h2 class="text-5xl font-black text-yellow-400 mb-6">
+
+Custom
+
+</h2>
+
+<ul class="space-y-4 text-gray-300 mb-10">
+
+<li>✔ Factory Installations</li>
+<li>✔ Smart Monitoring</li>
+<li>✔ Industrial Backup</li>
+<li>✔ 24/7 Support</li>
+
+</ul>
+
+<button class="w-full py-4 solar-gradient rounded-full text-black font-black">
+
+Contact Us
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section
+id="contact"
+class="py-28 dark-gradient">
+
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+
+<div data-aos="fade-right">
+
+<p class="text-yellow-400 uppercase tracking-[4px] font-semibold mb-4">
+Contact Us
+</p>
+
+<h2 class="text-5xl font-black mb-8">
+
+Let's Build A Reliable Energy Future
+
+</h2>
+
+<p class="text-gray-300 leading-loose mb-10">
+
+Reach out for consultations,
+solar installation and engineering projects.
+
+</p>
+
+<div class="space-y-6">
+
+<div class="glass p-6 rounded-3xl">
+
+<h3 class="font-bold text-xl mb-2">
+📍 Address
+</h3>
+
+<p class="text-gray-300">
+Yenagoa, Bayelsa State, Nigeria
+</p>
+
+</div>
+
+<div class="glass p-6 rounded-3xl">
+
+<h3 class="font-bold text-xl mb-2">
+📞 Phone
+</h3>
+
+<a
+href="tel:+2349030975784"
+class="text-gray-300 hover:text-yellow-400">
+
++2349030975784
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- FORM -->
+
+<div
+class="glass p-10 rounded-[40px]"
+data-aos="fade-left">
+
+<form id="contactForm" class="space-y-6">
+
+<div>
+
+<label class="block mb-2 font-semibold">
+Full Name
+</label>
+
+<input
+type="text"
+required
+placeholder="Enter your full name"
+class="w-full px-5 py-4 rounded-2xl bg-slate-900 border border-white/10 focus:outline-none">
+
+</div>
+
+<div>
+
+<label class="block mb-2 font-semibold">
+Email Address
+</label>
+
+<input
+type="email"
+required
+placeholder="Enter your email"
+class="w-full px-5 py-4 rounded-2xl bg-slate-900 border border-white/10 focus:outline-none">
+
+</div>
+
+<div>
+
+<label class="block mb-2 font-semibold">
+Message
+</label>
+
+<textarea
+rows="6"
+placeholder="Tell us about your project"
+class="w-full px-5 py-4 rounded-2xl bg-slate-900 border border-white/10 focus:outline-none"></textarea>
+
+</div>
+
+<button
+type="submit"
+class="w-full solar-gradient text-black font-black py-4 rounded-2xl hover:scale-105 transition glow">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- WEBSITE DEVELOPER SECTION -->
+
+<section class="py-16 bg-slate-950 border-t border-white/10">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div
+class="glass rounded-[35px] p-10 flex flex-col lg:flex-row items-center justify-between gap-10">
+
+<!-- LEFT -->
+
+<div>
+
+<p class="text-yellow-400 uppercase tracking-[4px] font-semibold mb-4">
+Website Developer
+</p>
+
+<h2 class="text-4xl font-black mb-4">
+Developed By MiraCardiac
+</h2>
+
+<p class="text-gray-300 leading-loose max-w-3xl mb-6">
+
+This premium website was professionally designed and developed by
+<strong class="text-white">MiraCardiac</strong>.
+
+We specialize in modern website development,
+mobile app development, business branding,
+UI/UX design, and digital solutions for businesses,
+organizations, startups, brands and companies.
+
+</p>
+
+<p class="text-gray-400 leading-loose">
+
+Available for:
+Website Development • Mobile App Development •
+Business Websites • School Portals • Healthcare Platforms •
+Company Websites • Branding • Partnerships • Contracts
+
+</p>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="flex flex-col gap-4 w-full lg:w-auto">
+
+<a
+href="https://miracardiacportfolio.vercel.app"
+target="_blank"
+class="solar-gradient text-black font-black px-8 py-4 rounded-full text-center hover:scale-105 transition glow">
+
+Visit Portfolio
+
+</a>
+
+<a
+href="https://wa.me/2349030975784"
+target="_blank"
+class="border border-yellow-400 px-8 py-4 rounded-full text-center hover:bg-yellow-400 hover:text-black transition">
+
+Hire MiraCardiac
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-black py-12 border-t border-white/10">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid md:grid-cols-3 gap-10">
+
+<!-- COMPANY -->
+
+<div>
+
+<h2 class="text-2xl font-black mb-4">
+MAGBE INTEGRATED TECH LTD
+</h2>
+
+<p class="text-gray-400 leading-loose">
+
+Premium renewable energy engineering company
+specializing in solar installations, inverter systems,
+electrical engineering and smart surveillance solutions.
+
+</p>
+
+</div>
+
+<!-- QUICK LINKS -->
+
+<div>
+
+<h3 class="text-xl font-bold mb-5 text-yellow-400">
+Quick Links
+</h3>
+
+<div class="flex flex-col gap-3 text-gray-400">
+
+<a href="#home" class="hover:text-yellow-400 transition">Home</a>
+<a href="#about" class="hover:text-yellow-400 transition">About</a>
+<a href="#services" class="hover:text-yellow-400 transition">Services</a>
+<a href="#pricing" class="hover:text-yellow-400 transition">Pricing</a>
+<a href="#videos" class="hover:text-yellow-400 transition">Videos</a>
+<a href="#contact" class="hover:text-yellow-400 transition">Contact</a>
+
+</div>
+
+</div>
+
+<!-- DEVELOPER -->
+
+<div>
+
+<h3 class="text-xl font-bold mb-5 text-yellow-400">
+Developer
+</h3>
+
+<p class="text-gray-400 leading-loose mb-5">
+
+Website Designed & Developed by MiraCardiac.
+
+Open for Website Development Contracts,
+Mobile App Projects and Partnerships.
+
+</p>
+
+<div class="flex gap-4">
+
+<a
+href="https://miracardiacportfolio.vercel.app"
+target="_blank"
+class="solar-gradient text-black px-5 py-3 rounded-full font-bold hover:scale-105 transition">
+
+Portfolio
+
+</a>
+
+<a
+href="https://wa.me/2349030975784"
+target="_blank"
+class="border border-yellow-400 px-5 py-3 rounded-full hover:bg-yellow-400 hover:text-black transition">
+
+Contact
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- BOTTOM -->
+
+<div class="border-t border-white/10 mt-10 pt-8 text-center text-gray-500">
+
+© 2026 MAGBE INTEGRATED TECH LTD.
+All Rights Reserved.
+
+<br><br>
+
+Designed & Developed By
+<span class="text-yellow-400 font-bold">
+MiraCardiac
+</span>
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+
+<button
+id="openWhatsappForm"
+class="fixed bottom-6 left-6 z-50 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition">
+
+💬
+
+</button>
+
+<!-- WHATSAPP POPUP FORM -->
+
+<div
+id="whatsappPopup"
+class="fixed inset-0 bg-black/70 backdrop-blur-sm z-[9999] hidden items-center justify-center px-6">
+
+  <div
+    class="w-full max-w-lg bg-slate-900 border border-white/10 rounded-[30px] p-8 relative animate-popup">
+
+    <!-- CLOSE BUTTON -->
+
+    <button
+      id="closeWhatsappForm"
+      class="absolute top-4 right-4 text-white text-2xl hover:text-red-400 transition">
+
+      ✕
+
+    </button>
+
+    <!-- TITLE -->
+
+    <div class="text-center mb-8">
+
+      <div
+        class="w-20 h-20 mx-auto rounded-full bg-green-500 flex items-center justify-center text-4xl mb-4 shadow-2xl">
+
+        💬
+
+      </div>
+
+      <h2 class="text-3xl font-black mb-3">
+
+        Contact MAGBE INTEGRATED TECH LTD
+
+      </h2>
+
+      <p class="text-gray-400 leading-relaxed">
+
+        Fill the form below and continue directly to WhatsApp.
+
+      </p>
+
+    </div>
+
+    <!-- FORM -->
+
+    <form id="whatsappForm" class="space-y-6">
+
+      <!-- NAME -->
+
+      <div>
+
+        <label class="block mb-2 font-semibold text-white">
+
+          Full Name
+
+        </label>
+
+        <input
+          type="text"
+          id="clientName"
+          required
+          placeholder="Enter your full name"
+          class="w-full px-5 py-4 rounded-2xl bg-slate-800 border border-white/10 focus:outline-none focus:border-green-500">
+
+      </div>
+
+      <!-- ADDRESS -->
+
+      <div>
+
+        <label class="block mb-2 font-semibold text-white">
+
+          Address
+
+        </label>
+
+        <input
+          type="text"
+          id="clientAddress"
+          required
+          placeholder="Enter your address"
+          class="w-full px-5 py-4 rounded-2xl bg-slate-800 border border-white/10 focus:outline-none focus:border-green-500">
+
+      </div>
+
+      <!-- PURPOSE -->
+
+      <div>
+
+        <label class="block mb-2 font-semibold text-white">
+
+          Purpose of Chat
+
+        </label>
+
+        <textarea
+          id="clientPurpose"
+          rows="5"
+          required
+          placeholder="Tell us why you want to chat..."
+          class="w-full px-5 py-4 rounded-2xl bg-slate-800 border border-white/10 focus:outline-none focus:border-green-500"></textarea>
+
+      </div>
+
+      <!-- BUTTON -->
+
+      <button
+        type="submit"
+        class="w-full bg-green-500 hover:bg-green-600 transition text-black font-black py-4 rounded-2xl text-lg shadow-2xl">
+
+        Continue To WhatsApp
+
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+
+<!-- CSS -->
+
+<style>
+
+@keyframes popupAnimation{
+
+  from{
+
+    opacity:0;
+    transform:scale(.8) translateY(30px);
+
+  }
+
+  to{
+
+    opacity:1;
+    transform:scale(1) translateY(0);
+
+  }
+
+}
+
+.animate-popup{
+
+  animation:popupAnimation .4s ease;
+
+}
+
+</style>
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+const openWhatsappForm =
+document.getElementById('openWhatsappForm');
+
+const closeWhatsappForm =
+document.getElementById('closeWhatsappForm');
+
+const whatsappPopup =
+document.getElementById('whatsappPopup');
+
+const whatsappForm =
+document.getElementById('whatsappForm');
+
+// OPEN POPUP
+
+openWhatsappForm.addEventListener('click',()=>{
+
+  whatsappPopup.classList.remove('hidden');
+
+  whatsappPopup.classList.add('flex');
+
+});
+
+// CLOSE POPUP
+
+closeWhatsappForm.addEventListener('click',()=>{
+
+  whatsappPopup.classList.add('hidden');
+
+  whatsappPopup.classList.remove('flex');
+
+});
+
+// CLOSE WHEN CLICKING OUTSIDE
+
+whatsappPopup.addEventListener('click',(e)=>{
+
+  if(e.target === whatsappPopup){
+
+    whatsappPopup.classList.add('hidden');
+
+    whatsappPopup.classList.remove('flex');
+
+  }
+
+});
+
+// FORM SUBMIT
+
+whatsappForm.addEventListener('submit',(e)=>{
+
+  e.preventDefault();
+
+  // GET VALUES
+
+  const name =
+  document.getElementById('clientName').value;
+
+  const address =
+  document.getElementById('clientAddress').value;
+
+  const purpose =
+  document.getElementById('clientPurpose').value;
+
+  // WHATSAPP MESSAGE
+
+  const message =
+
+`Hello MAGBE INTEGRATED TECH LTD,
+
+My Name: ${name}
+
+Address: ${address}
+
+Purpose Of Chat:
+${purpose}`;
+
+  // ENCODE MESSAGE
+
+  const encodedMessage =
+  encodeURIComponent(message);
+
+  // YOUR WHATSAPP NUMBER
+
+  const whatsappNumber =
+  '2349030975784';
+
+  // OPEN WHATSAPP
+
+  window.open(
+    `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
+    '_blank'
+  );
+
+  // RESET FORM
+
+  whatsappForm.reset();
+
+  // CLOSE POPUP
+
+  whatsappPopup.classList.add('hidden');
+
+  whatsappPopup.classList.remove('flex');
+
+});
+
+</script>
+<!-- SCROLL TOP -->
+
+<button
+id="scrollTopBtn"
+class="scroll-top solar-gradient text-black px-5 py-4 rounded-full font-black shadow-2xl">
+
+↑
+
+</button>
+
+<!-- AOS -->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+  duration:1000,
+  once:true
+});
+
+// NAVBAR
+
+const navbar =
+document.getElementById('navbar');
+
+window.addEventListener('scroll',()=>{
+
+  if(window.scrollY > 100){
+
+    navbar.classList.add('navbar-scrolled');
+
+  }else{
+
+    navbar.classList.remove('navbar-scrolled');
+
+  }
+
+});
+
+// MOBILE MENU
+
+const menuBtn =
+document.getElementById('menuBtn');
+
+const mobileMenu =
+document.getElementById('mobileMenu');
+
+menuBtn.addEventListener('click',()=>{
+
+  mobileMenu.classList.toggle('hidden');
+
+  menuBtn.classList.toggle('menu-open');
+
+});
+
+// COUNTER
+
+const counters =
+document.querySelectorAll('.counter');
+
+counters.forEach(counter=>{
+
+  const target =
+  Number(counter.getAttribute('data-target'));
+
+  let count = 0;
+
+  const updateCounter = ()=>{
+
+    const increment = target / 100;
+
+    if(count < target){
+
+      count += increment;
+
+      counter.textContent =
+      Math.ceil(count);
+
+      requestAnimationFrame(updateCounter);
+
+    }else{
+
+      counter.textContent = target;
+
+    }
+
+  };
+
+  updateCounter();
+
+});
+
+// FORM
+
+const contactForm =
+document.getElementById('contactForm');
+
+contactForm.addEventListener('submit',(e)=>{
+
+  e.preventDefault();
+
+  alert(
+    'Thank you for contacting MAGBE INTEGRATED TECH LTD.'
+  );
+
+  contactForm.reset();
+
+});
+
+// SCROLL TOP
+
+const scrollTopBtn =
+document.getElementById('scrollTopBtn');
+
+window.addEventListener('scroll',()=>{
+
+  if(window.scrollY > 500){
+
+    scrollTopBtn.style.display='block';
+
+  }else{
+
+    scrollTopBtn.style.display='none';
+
+  }
+
+});
+
+scrollTopBtn.addEventListener('click',()=>{
+
+  window.scrollTo({
+    top:0,
+    behavior:'smooth'
+  });
+
+});
+
+</script>
+
+</body>
+</html>
